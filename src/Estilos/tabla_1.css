@@ -1,0 +1,107 @@
+/* Estilo general de la página */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;}
+
+/* Estilo del contenedor de la tabla */
+.caja-datos {
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 98%;
+}
+
+/* Encabezado de la tabla */
+.caja-datos h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+/* Estilo de la tabla */
+.tabla-registros {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.tabla-registros thead {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.tabla-registros th, .tabla-registros td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-registros th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.tabla-registros tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo del contenedor con scroll */
+.scroll-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Estilo del botón de eliminar */
+button {
+    background-color: #1B5E20;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo de los inputs */
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo de los botones en el formulario */
+form button {
+    background-color: #1B5E20;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #45a049;
+}

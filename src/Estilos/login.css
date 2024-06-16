@@ -1,0 +1,57 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 500px;
+  width: 450px;
+  height:600px ;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  text-align: center;
+  color: #000;
+  font-family: 'Times New Roman', Times;
+  font-size: 30px;
+}
+
+.form-group1 {
+  margin: 10px;
+}
+
+.form-group2 {
+  margin: 10px;
+}
+
+
+.ipt {
+  width: 95%;
+  margin-top: 100px auto;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times;
+}
+
+.btn {
+  font-family: 'Times New Roman', serif; 
+  text-decoration: none;
+  background-color: #00387b; /* Color de fondo del enlace */
+  color: #fff; /* Color del texto del enlace */
+  padding: 1px; /* Espacio interno del enlace */
+  border-radius: 10px; /* Bordes redondeados */
+  height: 50px;
+  width: 200px;
+  display: inline-block; /* Hace que el enlace se muestre como un bloque en línea */
+  margin-left: 40%;
+  cursor: 'pointer'
+
+}
+.btn:hover {
+  background-color:  #ec7c26; /* Color de fondo al pasar el ratón sobre el enlace */
+}

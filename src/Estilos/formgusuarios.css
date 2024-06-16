@@ -1,0 +1,83 @@
+form {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+  }
+
+  .caja-datos {
+    margin-top: 20px;
+  }
+  
+  .caja-datos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fila-datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .fila-datos span {
+    flex: 1; /* Para que cada span ocupe el mismo espacio */
+    margin-right: 10px; /* Espacio entre los elementos */
+  }
+  
+  .fila-datos button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    width: '10px';
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+  .fila-datos.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+    font-weight: bold; /* Ajusta el tamaño de la fuente según sea necesario */
+   /* Permite que la fila ocupe todo el ancho de la pantalla */
+  }
+  
+  .fila-datos.encabezado span {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  /* Ajusta el tamaño de la fuente para los botones de Modificar y Eliminar si es necesario */
+  .fila-datos.encabezado button {
+    font-size: 1em;
+  }
+
+  .scroll-container {
+    max-height: 200px; /* Establece la altura máxima que deseas */
+    overflow-y: auto; /* Agrega la barra de desplazamiento vertical cuando sea necesario */
+  }
+  
+
+  
